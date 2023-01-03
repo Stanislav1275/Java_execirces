@@ -1,6 +1,5 @@
 package ru.sstu.cocktail.sixHead;
 
-import ru.sstu.cocktail.sixHead.Commands.Action;
 
 public class Switch<Up, Down> {
     public Up flipUpCommand;

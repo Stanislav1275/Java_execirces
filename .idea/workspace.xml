@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33b2e18f-aab2-43c5-83f0-1cd96b3196e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/DB/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/DB/DB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Avegatorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Default.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/DefaultWithNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/DefaultWithoutNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Executer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Subjectable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/TraficLight/Colorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/TraficLight/Green.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/TraficLight/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/TraficLight/TrafficLights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/TraficLight/Yellow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Watcher1/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Watcher1/Rule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Watcher1/RuleSetable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Watcher1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Watcher1/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/Geometry/Fraction/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/Geometry/Fraction/Fraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/Temporary/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/Temporary/Temp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/ex_1_1_/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/ex_1_1_/Name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/ex_1_1_/Point2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/ex_1_1_/Point2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/ex_1_2_/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/ex_1_2_/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/ex_1_3_/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/ex_1_3_/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/AverageableAdvanced.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Commands/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Commands/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Commands/removeMark.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Commands/removeMark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1.1.2/src/ru/sstu/cocktail/sixHead/Switch.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EajqwyHMGl7c3nfvIWGcMUlFlU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/autom/Desktop/HACKERING/Java_execirces/ex1.1.2/src/ru/sstu/cocktail/sixHead/Watcher1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\autom\Desktop\HACKERING\Java_execirces\ex1.1.2\src\ru\sstu\cocktail\sixHead\Watcher1" />
+      <recent name="C:\Users\autom\Desktop\HACKERING\Java_execirces\ex1.1.2\src\ru\sstu\cocktail\Figure" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.sstu.cocktail.sixHead" />
+      <recent name="ru.sstu.cocktail.sixHead.Commands" />
+      <recent name="ru.sstu.cocktail.ex_1_3_" />
+      <recent name="ru.sstu.cocktail.ex_1_1_" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Tasks">
+    <configuration name="ArgsSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.sstu.cocktail.ex_1_2_.Company_1_2_4.Main" />
+      <module name="ex1.1.2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.sstu.cocktail.homeworks_ermakov.Figures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tasks (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.sstu.cocktail.Tasks" />
+      <module name="ex1.1.2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.sstu.cocktail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tasks" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ru.sstu.cocktail.Tasks" />
+      <module name="ex1.1.2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.sstu.cocktail.homeworks_ermakov.Figures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.sstu.cocktail.ex_1_3_.City_1_3_3.Main" />
+      <module name="ex1.1.2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.Tasks (1)" />
+      <item itemvalue="Application.ArgsSum" />
+      <item itemvalue="Application.Tasks" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Tasks" />
+        <item itemvalue="Application.Tasks (1)" />
+        <item itemvalue="Application.ArgsSum" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33b2e18f-aab2-43c5-83f0-1cd96b3196e0" name="Changes" comment="" />
+      <created>1662840783549</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662840783549</updated>
+      <workItem from="1662840784823" duration="249000" />
+      <workItem from="1664137252818" duration="250000" />
+      <workItem from="1664137650791" duration="483000" />
+      <workItem from="1664298156960" duration="382000" />
+      <workItem from="1664299713486" duration="5802000" />
+      <workItem from="1664342125006" duration="124000" />
+      <workItem from="1664343989563" duration="43000" />
+      <workItem from="1664344082211" duration="2888000" />
+      <workItem from="1664351980653" duration="3005000" />
+      <workItem from="1664355844309" duration="2489000" />
+      <workItem from="1664484755710" duration="8123000" />
+      <workItem from="1664638504178" duration="3563000" />
+      <workItem from="1664714382932" duration="967000" />
+      <workItem from="1664735844032" duration="5633000" />
+      <workItem from="1664827292186" duration="1735000" />
+      <workItem from="1664878289964" duration="10343000" />
+      <workItem from="1664983516719" duration="20698000" />
+      <workItem from="1665318832276" duration="3119000" />
+      <workItem from="1665412983985" duration="158000" />
+      <workItem from="1665429368886" duration="2489000" />
+      <workItem from="1665508981283" duration="405000" />
+      <workItem from="1665511826672" duration="10042000" />
+      <workItem from="1665568181316" duration="121000" />
+      <workItem from="1665568332860" duration="4640000" />
+      <workItem from="1665690484073" duration="23247000" />
+      <workItem from="1665726815527" duration="1022000" />
+      <workItem from="1665727857311" duration="1879000" />
+      <workItem from="1665730730593" duration="698000" />
+      <workItem from="1665940343638" duration="5392000" />
+      <workItem from="1665950039958" duration="2243000" />
+      <workItem from="1666713208066" duration="15381000" />
+      <workItem from="1666732153940" duration="184000" />
+      <workItem from="1666732434658" duration="901000" />
+      <workItem from="1666733564645" duration="244000" />
+      <workItem from="1666763796549" duration="215000" />
+      <workItem from="1666777578055" duration="4234000" />
+      <workItem from="1666806509286" duration="1575000" />
+      <workItem from="1666868886902" duration="2289000" />
+      <workItem from="1666884333790" duration="1694000" />
+      <workItem from="1666904538154" duration="4269000" />
+      <workItem from="1666936524582" duration="374000" />
+      <workItem from="1666936911143" duration="248000" />
+      <workItem from="1666937174076" duration="88000" />
+      <workItem from="1666937285311" duration="115000" />
+      <workItem from="1666937495077" duration="106000" />
+      <workItem from="1667158237071" duration="108000" />
+      <workItem from="1667469786229" duration="6056000" />
+      <workItem from="1667476129118" duration="1275000" />
+      <workItem from="1667578912554" duration="14257000" />
+      <workItem from="1667635067935" duration="21370000" />
+      <workItem from="1667668241923" duration="5769000" />
+      <workItem from="1667738631512" duration="15223000" />
+      <workItem from="1667769867957" duration="4401000" />
+      <workItem from="1667774363052" duration="81000" />
+      <workItem from="1668145911515" duration="3840000" />
+      <workItem from="1668244245565" duration="595000" />
+      <workItem from="1668360956710" duration="3926000" />
+      <workItem from="1669196827726" duration="3737000" />
+      <workItem from="1669230408680" duration="2819000" />
+      <workItem from="1669320789208" duration="9128000" />
+      <workItem from="1669355962222" duration="4438000" />
+      <workItem from="1669581675414" duration="63000" />
+      <workItem from="1669903413998" duration="16638000" />
+      <workItem from="1669930350286" duration="1002000" />
+      <workItem from="1670165374679" duration="17594000" />
+      <workItem from="1670246349030" duration="3990000" />
+      <workItem from="1670358195881" duration="4480000" />
+      <workItem from="1670389452843" duration="231000" />
+      <workItem from="1670406778198" duration="4525000" />
+      <workItem from="1670430472705" duration="8802000" />
+      <workItem from="1670450009795" duration="4699000" />
+      <workItem from="1670488599572" duration="1660000" />
+      <workItem from="1670525333129" duration="386000" />
+      <workItem from="1670566171568" duration="1726000" />
+      <workItem from="1671188549302" duration="184000" />
+      <workItem from="1671274575401" duration="2307000" />
+      <workItem from="1671277022565" duration="37000" />
+      <workItem from="1671282621567" duration="2822000" />
+      <workItem from="1671308241092" duration="716000" />
+      <workItem from="1671549234127" duration="13710000" />
+      <workItem from="1671599915397" duration="776000" />
+      <workItem from="1671601134346" duration="8710000" />
+      <workItem from="1671612665208" duration="8207000" />
+      <workItem from="1671624465618" duration="788000" />
+      <workItem from="1671646209560" duration="31000" />
+      <workItem from="1671718008195" duration="21000" />
+      <workItem from="1671989147612" duration="215000" />
+      <workItem from="1671989387864" duration="12000" />
+      <workItem from="1672661127903" duration="2745000" />
+      <workItem from="1672671075724" duration="830000" />
+      <workItem from="1672771253480" duration="5913000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="ru.sstu.cocktail.ex_1_2_.Company_1_2_4.Employee" memberName="department" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java_execirces$ArgsSum.ic" NAME="ArgsSum Coverage Results" MODIFIED="1664485947091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.sstu.cocktail.homeworks_ermakov.*</FILTER>
+    </SUITE>
+  </component>
+</project>

@@ -53,8 +53,13 @@ public final class Fraction extends Number implements Cloneable {
     }
 
     @Override
-    public Fraction clone() throws CloneNotSupportedException {
-        return (Fraction) super.clone();
+    public Fraction clone()  {
+        try{
+            return (Fraction) super.clone();
+
+        }catch (CloneNotSupportedException e){
+            throw  new RuntimeException(e);
+        }
     }
 
     private Fraction getResult(Fraction fraction, String actor) {

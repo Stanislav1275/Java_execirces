@@ -1,8 +1,10 @@
 package ru.sstu.cocktail.ex_1_1_;
 
+import ru.sstu.cocktail.sixHead.Copyable;
+
 import java.util.Objects;
 
-public class Point2D implements Cloneable {
+public class Point2D implements Copyable<Point2D> {
 
     public double x;
     public double y;
@@ -17,7 +19,10 @@ public class Point2D implements Cloneable {
         this.x = 0;
         this.y = 0;
     }
-
+    public Point2D(Point2D p){
+        this.x = p.x;
+        this.y = p.y;
+    }
     @Override
     public String toString() {
         return String.format("{%f;%f}\n", x, y);
@@ -44,8 +49,13 @@ public class Point2D implements Cloneable {
     }
 
     @Override
-    public Point2D clone() throws CloneNotSupportedException {
-        return (Point2D) super.clone();
+    public Point2D clone() {
+        try{
+            return (Point2D) super.clone();
+
+        }catch(Exception e){
+            throw  new RuntimeException(e);
+        }
     }
 
 

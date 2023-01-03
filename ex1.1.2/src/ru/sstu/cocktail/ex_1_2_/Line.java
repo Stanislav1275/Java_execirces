@@ -20,9 +20,10 @@ public class Line implements Longable, IcanGetPolyline {
         this.point1 = p1;
         this.point2 = p2;
     }
-    public Line(Line line) throws CloneNotSupportedException {
-        this.point1 = line.getStart().clone();
-        this.point1 = line.getEnd().clone();
+    public Line(Line line) {
+
+        this.point1 = line.point1.clone();
+        this.point1 = line.point2.clone();
     }
     public Point2D getStart() {
 

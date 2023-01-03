@@ -3,16 +3,15 @@ package ru.sstu.cocktail.ex_1_3_;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Student<T> implements Comparable<T>{
     private String name;
     private List<Integer> marks = new ArrayList<>();
 
-    public Student(String name, ArrayList<Integer> marks) {
+    public Student(String name) {
         this.name = name;
-        setMarks(marks);
+        setMarks((ArrayList<Integer>) marks);
     }
 
     public ArrayList<Integer> getMarks() {
