@@ -1,7 +1,7 @@
 package ru.sstu.cocktail.sixHead;
 
-public interface Command {
-    int execute();
+public interface Command<T> {
+    T execute();
     CommandCategory getType();
 }
 

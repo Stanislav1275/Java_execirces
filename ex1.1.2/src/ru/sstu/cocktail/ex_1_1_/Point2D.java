@@ -4,7 +4,7 @@ import ru.sstu.cocktail.sixHead.Copyable;
 
 import java.util.Objects;
 
-public class Point2D implements Copyable<Point2D> {
+public class Point2D implements Copyable<Point2D>, IPoint2d{
 
     public double x;
     public double y;
@@ -33,8 +33,7 @@ public class Point2D implements Copyable<Point2D> {
         this.y += yOffset;
     }
 
-    //point3d.eq(pioint2d)//false
-    //
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

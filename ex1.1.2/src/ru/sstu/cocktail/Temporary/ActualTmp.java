@@ -17,6 +17,18 @@ public class ActualTmp {
         }return def;
     }
 
+    public Temp getCold() {
+        return cold;
+    }
+
+    public Temp getWarm() {
+        return warm;
+    }
+
+    public Temp getHot() {
+        return hot;
+    }
+
     @Override
     public String toString() {
        return "actualTmp "+actualTmp +"{"+getActualTemp().toString()+"}\n";

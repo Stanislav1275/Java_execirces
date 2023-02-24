@@ -1,21 +1,25 @@
 package ru.sstu.cocktail.ex_1_1_;
 
-public class Point3D extends Point2D {
+public class Point3D implements IPoint3D{
 
     public double z;
+    public double x;
+    public double y;
 
     public Point3D(double x, double y, double z) {
-        super(x, y);
+        this.x = x;
+        this.y = y;
         this.z = z;
     }
     public Point3D() {
-        super(0, 0);
-        this.z = 0;
+        this(0,0,0);
     }
 
+
     public void shiftCoords(double xOffset, double yOffset, double zOffset) {
-        super.shiftCoords(xOffset, yOffset);
         this.z += zOffset;
+        this.x += zOffset;
+        this.y += zOffset;
     }
 
     @Override

@@ -19,10 +19,14 @@ import ru.sstu.cocktail.ex_1_2_.Company_1_2_4.Department;
 import ru.sstu.cocktail.ex_1_2_.Company_1_2_4.Employee;
 import ru.sstu.cocktail.ex_1_3_.Broken;
 import ru.sstu.cocktail.ex_1_3_.ClosedBroken;
+import ru.sstu.cocktail.sixHead.Car;
 import ru.sstu.cocktail.sixHead.Parent;
+import ru.sstu.cocktail.sixHead.Stock.Stock;
+import ru.sstu.cocktail.sixHead.Stock.Stocker;
 import ru.sstu.cocktail.sixHead.Student;
 //import ru.sstu.cocktail.sixHead.Watcher.*;
 //import ru.sstu.cocktail.sixHead.Watcher.Human;
+import java.sql.SQLOutput;
 import java.util.*;
 
 
@@ -53,10 +57,12 @@ public class Tasks {
 //        Parent<Integer> p = new Parent<>(x -> x > 3);
 //        p.addChild(st);
 //        st.addMark(2);
-        Name.NameGenerator nameGenerator = Name.NameGenerator.create().addSurname("Иванов").addPatron("Криллович").addPatron("Иванович").addName("Иван");
-        System.out.println(nameGenerator.build());
-    }
 
+
+
+
+
+    }
     public static Object m(Object o) {
         return o;
     }
@@ -221,8 +227,8 @@ public class Tasks {
     }
 
     public static void star() {
-        Point2D point2D = new Point3D(1, 2, 3);
-        System.out.println(point2D);
+//        Point2D point2D = new Point3D(1, 2, 3);
+//        System.out.println(point2D);
 //        MyPoint p1 = MyPoint.create(1, 1);
 //        MyPoint p2 = MyPoint.create(1, 1);
 //        System.out.println(p1 == p2);

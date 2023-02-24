@@ -1,11 +1,11 @@
 package ru.sstu.cocktail.ex_1_3_;
 
-import org.jetbrains.annotations.NotNull;
+//import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Student<T> implements Comparable<T>{
+public class Student<T> implements Comparable<T> {
     private String name;
     private List<Integer> marks = new ArrayList<>();
 
@@ -67,7 +67,7 @@ public class Student<T> implements Comparable<T>{
             return 0;
         }
         for (int mark : marks) {
-            res +=  mark;
+            res += mark;
         }
         res /= marks.size();
         return res;
@@ -98,12 +98,9 @@ public class Student<T> implements Comparable<T>{
     public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +
-                ", marks=" + marks + " " +isWellDone() + " " +getAverageScore() + '}';
-    }
-
-
-    @Override
-    public int compareTo(@NotNull T o) {
-        return 0;
+                ", marks=" + marks + " " + isWellDone() + " " + getAverageScore() + '}';
     }
 }
+
+
+
